@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Animation with CSS</title>
+        <style> 
+            div {
+                width: 100px;
+                height: 100px;
+                background: green;
+                border-radius:0%;
+                text-align:center;
+                line-height: 100px;
+                margin-left:50%;
+                transition: background 2s ,  border-radius 2s;
+            }
+
+            div:hover {
+                background : orange;
+                border-radius:50%;
+            }
+        </style>
+    </head>
+    <body>
+        <div>Box</div>
+        <br>    
+        <p style="margin-left:45%">Mouse Over to see transition effect</p>
+    </body>
+</html>
+
